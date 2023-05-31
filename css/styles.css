@@ -29,7 +29,6 @@ body {
 }
 .img-cover {
 	color:black;
-	opacity:0.2;
 }
 /* For devices larger than 400px */
 @media (min-width: 400px) {
@@ -259,7 +258,9 @@ header {
 	letter-spacing: 5px;
 	margin-top: 50px;
 }
-
+.heading {
+	text-shadow: 4px 4px 5px black;
+}
 @media only screen and (max-height: 700px) {
 .title h1 {
 	font-size: 80px;
