@@ -30,6 +30,15 @@ body {
 .img-cover {
 	color:black;
 }
+.six .sm-img {
+	width:30%;
+}
+.six .med-img {
+	width:75%;
+}
+.less-marg {
+	margin-bottom: 0px;
+}
 /* For devices larger than 400px */
 @media (min-width: 400px) {
 .container {
@@ -66,6 +75,9 @@ body {
 }
 .six.columns {
 	width: 48%;
+}
+.six-img {
+	width: 100%
 }
 .seven.columns {
 	width: 56.6666666667%;
@@ -296,7 +308,6 @@ header {
 	top: -100px;
 	padding-bottom: 6px;
 }
-
 @media only screen and (max-width: 766px) {
 .main_nav {
 	padding-top: 25px;
