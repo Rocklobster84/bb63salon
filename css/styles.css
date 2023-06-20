@@ -12,6 +12,9 @@ body {
 	font-family: 'Open Sans', Helvetica, Arial, sans-serif;
 	color: #222;
 }
+small {
+	font-color: grey;
+}
 /* Grid
 ********************************************************************* */  
 .container {
@@ -727,4 +730,21 @@ pre, blockquote, dl, figure, table, p, ul, ol, form {
 	background: -webkit-linear-gradient(-45deg, #e55d87 0%, #5fc3e4 100%);
 	background: linear-gradient(135deg, #e55d87 0%, #5fc3e4 100%);
 	margin-bottom: 50px;
+}
+/***** Logo Style *****/
+.logo {
+	width: 50%;
+	padding-bottom: 50px;
+}
+
+/***** Button Styling ******/
+.button {
+	background-color: #5fc3e4;
+	border: none;
+	color: white;
+	padding: 15px 22px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
 }
