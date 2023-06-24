@@ -12,6 +12,11 @@ body {
 	font-family: 'Open Sans', Helvetica, Arial, sans-serif;
 	color: #222;
 }
+/***** Logo Style *****/
+.logo {
+	width: 50%;
+	padding-bottom: 50px;
+}
 small {
 	font-color: grey;
 }
@@ -48,6 +53,12 @@ small {
 	width: 85%;
 	padding: 0;
 }
+	.logo {
+		padding-bottom: 18px;
+	}
+	.heading {
+		font-size: 18px;
+	}
 	.column,  .columns {
 		margin-left: 4%;
 	}
@@ -153,6 +164,9 @@ small {
 .container {
 	width: 80%;
 }
+	.logo {
+		padding-bottom: 30px;
+	}
 .column,  .columns {
 	margin-left: 4%;
 }
@@ -335,6 +349,9 @@ header {
 	-ms-flex-pack: center;
 	justify-content: center;
     width: 100%;
+	background-postion: center;
+	background-size: cover;
+	background-repeat: no-repeat;
 	background-image: url("../images/bb63-salon.jpg");
 }
 .title {
@@ -369,14 +386,14 @@ header {
 	font-weight: 400;
 	text-transform: uppercase;
 	letter-spacing: 5px;
-	margin-top: 50px;
+	margin-top: 30px;
 }
 .heading {
 	text-shadow: 4px 4px 5px black;
 }
 @media only screen and (max-height: 700px) {
 .title h1 {
-	font-size: 80px;
+	font-size: 50px;
 }
 }
 .title p {
@@ -565,7 +582,7 @@ opacity: 0;
 ********************************************************************* */
 
 #about {
-	padding: 100px 0 50px 0;
+	padding: 60px 0 50px 0;
 }
 /* Team Section
 ********************************************************************* */
@@ -730,11 +747,6 @@ pre, blockquote, dl, figure, table, p, ul, ol, form {
 	background: -webkit-linear-gradient(-45deg, #e55d87 0%, #5fc3e4 100%);
 	background: linear-gradient(135deg, #e55d87 0%, #5fc3e4 100%);
 	margin-bottom: 50px;
-}
-/***** Logo Style *****/
-.logo {
-	width: 50%;
-	padding-bottom: 50px;
 }
 
 /***** Button Styling ******/
