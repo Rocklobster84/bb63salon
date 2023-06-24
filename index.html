@@ -24,11 +24,14 @@
   <link href="https://cdnjs.cloudflare.com/ajax/libs/typicons/2.0.8/typicons.min.css" rel="stylesheet" type="text/css">
   <link href="css/styles.css" rel="stylesheet" type="text/css">
 
-  <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>  <script src="https://unpkg.com/vue-router/dist/vue-router.js"></script>
+  <script src="js/modal.js"></script>
+
+
 
 </head>
 
-<body class="is-preload">  
+<body class="is-preload">
+
   <div id="page-wrapper">   
 
     <header id="header" class="alt">
@@ -52,6 +55,20 @@
 
           <h1 class="heading">Fort Worth, Texas</h1>
           <h2 class="heading">Come as you are, we'll fix you up!</h2>
+
+          <!--<button id="myBtn">Open Modal</button>-->
+
+          <!-- The Modal -->
+          <div id="myModal" class="modal">
+
+            <!-- Modal content -->
+            <div class="modal-content">
+              <span class="close">&times;</span>
+              <p>Some text in the Modal..</p>
+            </div>
+
+          </div>
+
           <a class="smoothscroll" href="#about">
           <div class="mouse">
             <div class="wheel"></div>
@@ -307,6 +324,8 @@
       <div class="three columns">
         <a href="https://www.facebook.com/BB63Salon/" target="_blank" rel="noreferrer noopener"><span class="typcn typcn-social-facebook-circular socialIcons"></span></a>
         <a href="https://www.instagram.com/bb63salon/" target="_blank" rel="noreferrer noopener"><span class="typcn typcn-social-instagram-circular socialIcons"></span></a>
+          <a><img src="images/welcome.jpg" alt="Everyone is Welcome Here Pride Flag" class="welcome"/></a>
+
  
     </div>
     </div>
