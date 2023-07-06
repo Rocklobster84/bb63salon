@@ -780,9 +780,11 @@ pre, blockquote, dl, figure, table, p, ul, ol, form {
 	padding: 20px;
 	border: 1px solid #888;
 	width: 80%;
+	max-width: 1200px;
 }
 .modal-content img {
-	width: 100%
+	max-width: 100%;
+	height: auto;
 }
 .close {
 	color: #aaa;
