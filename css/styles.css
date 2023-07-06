@@ -786,6 +786,16 @@ pre, blockquote, dl, figure, table, p, ul, ol, form {
 	max-width: 100%;
 	height: auto;
 }
+@media(max-width: 500px){
+.modal-content {
+	margin: 7%;
+	width: 50%;
+	max-width: 320px;
+}
+	.modal-content img {
+		max-width: 300px;
+	}
+}
 .close {
 	color: #aaa;
 	float: right;
