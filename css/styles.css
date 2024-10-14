@@ -779,7 +779,7 @@ pre, blockquote, dl, figure, table, p, ul, ol, form {
 	padding: 20px;
 	border: 1px solid #888;
 	width: 50%;
-	max-width: 1200px;
+	max-width: 800px;
 }
 .modal-content img {
 	max-width: 100%;
@@ -788,8 +788,7 @@ pre, blockquote, dl, figure, table, p, ul, ol, form {
 @media (min-width: 320px) and (max-width: 412px){
 	.modal-content {
 		margin: 3%;
-		width: 50%;
-		max-width: 300px;
+		width: 40%;
 	}
 	.modal-content img {
 		max-width: 250px;
