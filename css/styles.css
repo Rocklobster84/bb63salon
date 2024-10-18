@@ -11,12 +11,18 @@ body {
 	font-weight: 400;
 	font-family: 'Open Sans', Helvetica, Arial, sans-serif;
 	color: #222;
+	margin: 0; /* Ensure no default margin */
+	padding: 0; /* Ensure no default padding */
 }
-/***** Logo Style *****/
 .logo {
-	width: 50%;
+	width: 100%; /* Use relative width */
+	max-width: 50%; /* Limit maximum width */
 	padding-bottom: 50px;
 }
+small {
+	color: grey; /* Corrected property name */
+}
+
 small {
 	font-color: grey;
 }
@@ -44,9 +50,15 @@ small {
 .six .med-img {
 	width:45%;
 }
-.less-marg {
-	margin-bottom: 0px;
+@media (max-width: 600px) {
+	body {
+		font-size: 1.2em; /* Adjust font size for smaller screens */
+	}
+	.logo {
+		width: 90%; /* Adjust width for smaller screens */
+	}
 }
+
 /* For devices larger than 320px */
 @media (min-width: 320px) {
 .container {
@@ -409,6 +421,9 @@ header {
 .title h2 {
 	font-size: 12px;
 	margin-top: 18px;
+}
+.welcome {
+	width: 70%;
 }
 }
 .title .icon {
@@ -781,7 +796,7 @@ pre, blockquote, dl, figure, table, p, ul, ol, form {
 	padding-bottom: 2%;
 	padding-left: 2%;
 	border: 1px solid #888;
-	width: 50%;
+	width: 90%;
 	max-width: 800px;
 }
 .modal-content img {
@@ -790,22 +805,22 @@ pre, blockquote, dl, figure, table, p, ul, ol, form {
 	margin: auto;
 }
 @media (min-width: 320px) and (max-width: 411px){
+	.modal {
+		width: 100%
+	}
 	.modal-content {
 		margin: auto;
-		width: 20%;
-	}
-	.modal-content img {
-		max-width: 100px;
+		width: 95%;
 	}
 }
 
 @media(min-width: 412px) and (max-width: 500px){
-.modal-content {
-	margin: 7%;
-	width: 30%;
-}
-	.modal-content img {
-		max-width: 200px;
+	.modal {
+		width: 100%
+	}
+	.modal-content {
+		margin: 7%;
+		width: 80%;
 	}
 }
 .close {
@@ -821,3 +836,4 @@ pre, blockquote, dl, figure, table, p, ul, ol, form {
 	text-decoration: none;
 	cursor: pointer;
 }
+
