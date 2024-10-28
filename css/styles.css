@@ -368,10 +368,11 @@ header {
 	-webkit-justify-content: center;
 	-ms-flex-pack: center;
 	justify-content: center;
-    width: 100%;
-	background-postion: center;
+	align-items: center;
+  width: 100%;
 	background-size: cover;
 	background-repeat: no-repeat;
+	background-position-y: center;
 	background-image: url("../images/bb63-salon.jpg");
 }
 .title {
@@ -402,7 +403,7 @@ header {
 }
 .title h2 {
 	color: #FFFFFF;
-	font-size: 24px;
+	font-size: 50px;
 	font-weight: 400;
 	text-transform: uppercase;
 	letter-spacing: 5px;
