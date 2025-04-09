@@ -849,3 +849,12 @@ pre, blockquote, dl, figure, table, p, ul, ol, form {
 	cursor: pointer;
 }
 
+
+/* BOOTH RENTAL PAGE */
+#booth-rental h2 {
+	font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+}
+
+#booth-rental ul li {
+	text-decoration: none;
+}
