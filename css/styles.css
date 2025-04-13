@@ -894,6 +894,7 @@ pre, blockquote, dl, figure, table, p, ul, ol, form {
 @media (max-width: 600px) {
 	.title-rental {
 		padding-left: 20px;
+		font-size: 20px;
 	}
 }
 .image-container img {
