@@ -858,3 +858,44 @@ pre, blockquote, dl, figure, table, p, ul, ol, form {
 #booth-rental ul li {
 	text-decoration: none;
 }
+.flex-container {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.flex-container-text{
+	display: flex;
+	background-image: url('../images/salon-photo1.jpg');
+	height: 500px;
+	background-repeat: no-repeat;
+	justify-content: left;
+	align-items: center;
+	background-size: cover;
+	background-position: center;
+	margin-bottom: 20px;
+}
+.rental-block {
+	width: 50%;
+	background-color: rgba(0, 0, 0, 0.6);
+	
+}
+.title-rental {
+	color: white;
+	height: 100%;
+	text-align: left;
+	padding-top: 50px;
+	padding-left: 50px;
+}
+.list-rental {
+	color: white;
+	text-align: left;
+	padding-left: 50px;
+}
+.image-container img {
+	width: 98%;
+	height: auto;
+	align-items: stretch;
+}
+.pink-text {
+	color: #e44ba9;
+}
