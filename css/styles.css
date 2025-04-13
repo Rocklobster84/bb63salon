@@ -891,6 +891,11 @@ pre, blockquote, dl, figure, table, p, ul, ol, form {
 	text-align: left;
 	padding-left: 50px;
 }
+@media (max-width: 600px) {
+	.title-rental {
+		padding-left: 20px;
+	}
+}
 .image-container img {
 	width: 98%;
 	height: auto;
