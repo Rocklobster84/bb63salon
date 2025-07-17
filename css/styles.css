@@ -634,7 +634,7 @@ opacity: 0;
 footer {
 	min-height: 120px;
 	padding: 40px 0 40px 0;
-	background: #d98cd9;
+	background: #892F89;
 	box-sizing: border-box;
 }
 footer p {
@@ -706,7 +706,7 @@ pre, blockquote, dl, figure, table, p, ul, ol, form {
 
 .icon {
 	padding-right: 10px;
-	color: #d98cd9;
+	color: #892F89;
 }
 .block {
 	width: 70px;
