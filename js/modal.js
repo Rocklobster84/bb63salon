@@ -14,7 +14,5 @@ window.addEventListener('DOMContentLoaded', function() {
         modal.style.display = 'none';
       }
     });
-  } else {
-    console.error('Modal or close button not found');
-  }
+  } 
 });
