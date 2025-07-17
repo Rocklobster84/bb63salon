@@ -354,7 +354,7 @@ p {
 /* Links
 ********************************************************************* */
 a {
-	color: #1EAEDB;
+	color: #145D76;
 }
 a:hover {
 	color: #0FA0CE;
@@ -712,15 +712,15 @@ pre, blockquote, dl, figure, table, p, ul, ol, form {
 	width: 70px;
 	height: 2px;
 	background: #e55d87; /* Old browsers */
-	background: -moz-linear-gradient(-45deg, #e55d87 0%, #5fc3e4 100%);
-	background: -webkit-linear-gradient(-45deg, #e55d87 0%, #5fc3e4 100%);
-	background: linear-gradient(135deg, #e55d87 0%, #5fc3e4 100%);
+	background: -moz-linear-gradient(-45deg, #e55d87 0%, #145D76 100%);
+	background: -webkit-linear-gradient(-45deg, #e55d87 0%, #145D76 100%);
+	background: linear-gradient(135deg, #e55d87 0%, #145D76 100%);
 	margin-bottom: 50px;
 }
 
 /***** Button Styling ******/
 .button {
-	background-color: #5fc3e4;
+	background-color: #145D76;
 	border: none;
 	color: white;
 	padding: 15px 22px;
