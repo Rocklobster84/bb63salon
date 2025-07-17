@@ -184,9 +184,12 @@ small {
 .container {
 	width: 80%;
 }
-	.logo {
-		padding-bottom: 30px;
-	}
+.logo {
+padding-bottom: 30px;
+}
+.heading {
+font-size: 24px;
+}
 .column,  .columns {
 	margin-left: 4%;
 }
@@ -430,6 +433,9 @@ header {
 .title h2 {
 	font-size: 12px;
 	margin-top: 18px;
+}
+.heading {
+	font-size: 32px;
 }
 .welcome {
 	width: 70%;
