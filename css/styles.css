@@ -13,8 +13,11 @@ body {
 	font-weight: 400;
 	font-family: 'Open Sans', Helvetica, Arial, sans-serif;
 	color: #222;
-	margin: 0; /* Ensure no default margin */
-	padding: 0; /* Ensure no default padding */
+	margin: 0;
+	padding: 0;
+	display: grid;
+  grid-template-rows: auto 1fr auto; /* Header, main content, footer */
+  min-height: 100vh;
 }
 .logo {
 	width: 100%; /* Use relative width */
@@ -636,6 +639,9 @@ footer {
 	padding: 40px 0 40px 0;
 	background: #892F89;
 	box-sizing: border-box;
+	width: 100%;
+	left: 0;
+	bottom: 0;
 }
 footer p {
 	color: #FFFFFF;
@@ -647,6 +653,9 @@ footer a {
 .socialIcons {
 	font-size: 34px;
 	color: rgba(255, 255, 255, 0.7);
+}
+.steph-codes {
+	text-align: center;
 }
 /* Lists
 ********************************************************************* */
@@ -851,4 +860,80 @@ pre, blockquote, dl, figure, table, p, ul, ol, form {
 /* PROMOS */
 #promos {
 	width: 50%;
+}
+
+/* LINKS PAGE */
+.links {
+	background-image: linear-gradient(to bottom right, #9cc0ff, #f29cff);
+}
+.links-header img {
+	display: block;
+	margin: 0 auto;
+	text-align: center;
+	width: 300px;
+	height: auto;
+	padding: 10px 0 10px 0;
+}
+.links-list {
+	display: flex;
+  flex-direction: column;
+  align-items: center; 
+  gap: 10px; 
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+.links-button {
+  background-color: #fffcff;
+  border-radius: 8px;
+  border-style: none;
+  box-sizing: border-box;
+  color: #111111;
+  cursor: pointer;
+  flex-shrink: 0;
+  font-size: 16px;
+  font-weight: 500;
+  height: 4rem;
+  padding: 0 1.6rem;
+  text-align: center;
+  text-shadow: rgba(0, 0, 0, 0.25) 0 3px 8px;
+  transition: all .5s;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+	width: 300px;
+	display: inline-block;
+}
+
+.links-button:hover {
+  box-shadow: rgba(80, 63, 205, 0.5) 0 1px 30px;
+  transition-duration: .1s;
+}
+
+@media (min-width: 768px) {
+  .links-button {
+    padding: 0 2.6rem;
+  }
+}
+.links-heading {
+	margin-top: 20px;
+}
+.links-nav{
+	position: fixed;
+	top: 0px;
+	max-height: 50px;
+	z-index: 999;
+	width: 100%;
+	padding-top: 20px;
+	background-color: white;
+	overflow: hidden;
+	-webkit-transition: all 0.3s;
+	transition: all 0.3s;
+	opacity: 0;
+	top: -100px;
+	padding-bottom: 6px;
+}
+
+footer .steph-codes {
+	margin: 0;
+	padding: 0;
 }
