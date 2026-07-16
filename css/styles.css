@@ -61,6 +61,17 @@ small {
 .six .med-img {
 	width:45%;
 }
+.xs-img {
+	width: 20%;
+	max-width: 100%;
+	height: auto;
+	display: inline-block;
+	padding: 10px;
+	box-sizing: border-box;
+}
+.xs-img:first-of-type {
+	clear: both;
+}
 @media (max-width: 600px) {
 	body {
 		font-size: 1.2em; /* Adjust font size for smaller screens */
@@ -737,6 +748,7 @@ pre, blockquote, dl, figure, table, p, ul, ol, form {
 	text-decoration: none;
 	display: inline-block;
 	font-size: 16px;
+	margin-bottom: 15px;
 }
 
 /****** Modal ******/
