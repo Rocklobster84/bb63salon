@@ -67,7 +67,7 @@
 <div id="myModal" class="modal">
   <div class="modal-content">
     <span class="close">&times;</span>
-    <img src="images/New-Salon.jpg"
+    <img loading="lazy" src="images/New-Salon.jpg"
         alt="Informative image letting users know the salon has moved to 2109 Alta Mere Drive, Fort Worth, Texas 76116"></a>
   </div>
 </div>
@@ -78,16 +78,17 @@
     <header id="header" class="alt">
       <div class="main_nav">
         <div class="container">
-          <div class="mobile-toggle"> <span></span> <span></span> <span></span> </div>
+          <button class="mobile-toggle" type="button" aria-label="Toggle menu" aria-expanded="false"> <span></span> <span></span> <span></span> </button>
             <nav>
               <ul>
-                <li><a class="smoothscroll" href="#header">Home</a></li>
-                <li><a class="smoothscroll" href="#about">About</a></li>
-                <li><a class="smoothscroll" href="#hair">Hair Services</a></li>
-                <li><a class="smoothscroll" href="#esthetician">Estheticians</a></li>
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#hair">Hair Services</a></li>
+                <li><a href="#esthetician">Estheticians</a></li>
                 <li><a href="booth-rental.html">Join Our Team</a></li>
               </ul>
             </nav>
+            <a class="nav-book" href="#hair">Book Now</a>
           </div>
         </div>
 
@@ -95,6 +96,8 @@
           <div><img src="images/bb63-logo3.png" class="logo" alt="BB 63 Salon Logo"/></div>
 
           <h2 class="heading">2901 Alta Mere Dr.<br />Fort Worth, Texas</h2>
+          <a class="button" href="#hair">Book Now</a>
+        </div>
     </header>
 
     
@@ -103,7 +106,7 @@
   
 <section id="about">
   <div class="container">
-    <h1 class="title pacifico-regular">Come as you are, we'll fix you up! 💋</h1>
+    <h1 class="slogan pacifico-regular">Come as you are, we'll fix you up! 💋</h1>
     <div class="row">
       <h2>About</h2>
       <div class="block"></div>
@@ -126,7 +129,7 @@
     -->
       <div class="row">
       <div class="six columns">
-        <img src="images/suite-rental-info.jpg" alt="Suite Rental Opportunity" class="six-img"/>
+        <img loading="lazy" src="images/building-front.jpg" alt="front face of BB 63 Salon" class="six-img"/>
       </div>
       <div class="six columns">
         <p>
@@ -166,7 +169,7 @@
       <p class="less-marg">
         Products used during the styling process are also available for purchase, so you can achieve the look home.
       </p>
-        <img src="images/marianila.png" alt="We carry Maria Nila products" class="sm-img" />
+        <img loading="lazy" src="images/marianila.png" alt="We carry Maria Nila products" class="sm-img" />
       <p>
         We have also partnered with several local artists and, for your convenience, several pieces are available for
         purchase inside the salon.
@@ -176,21 +179,16 @@
   </div>
     <div class="row">
       <div class="six columns">
-      <img src="images/building-front.jpg" alt="front face of BB 63 Salon" class="six-img"/>
+      <img loading="lazy" src="images/suite-rental-info.jpg" alt="Suite Rental Opportunity" class="six-img"/>
     </div>
 
-        <div class="six columns">
-          <img src="images/art-1.jpg" class="med-img" alt="artwork for sale of Willie Nelson"/>
-          <img src="images/art-2.jpg" class="med-img" alt="artwork for sale from Fort Worth artist Jack Daw"/>
-        </div>
-
-      <div class="six columns">
-          <img src="images/art-3.jpg" class="med-img" alt="artwork for sale of Marilyn Monroe as well as wood cut pieces"/>
-          <img src="images/art-4.jpg" class="med-img" alt="artwork for sale of wood cut pieces and photograph of the moon by local artists"/>
+        <div class="six columns art-grid">
+          <img loading="lazy" src="images/art-1.jpg" class="med-img" alt="artwork for sale of Willie Nelson"/>
+          <img loading="lazy" src="images/art-2.jpg" class="med-img" alt="artwork for sale from Fort Worth artist Jack Daw"/>
+          <img loading="lazy" src="images/art-3.jpg" class="med-img" alt="artwork for sale of Marilyn Monroe as well as wood cut pieces"/>
+          <img loading="lazy" src="images/art-4.jpg" class="med-img" alt="artwork for sale of wood cut pieces and photograph of the moon by local artists"/>
         </div>
       </div>
-      </div>
-    </div>
   </div>
 </section>
 
@@ -207,20 +205,19 @@
           </p>
     </div>
   </div>
-<br />
-  <div class="container">
+  <div class="container stylist-card">
     <div class="row">
-      <h2>Cozzette | <small>Owner, Hairstylist</small></h2>
+      <h2>Cozzette <small>Owner, Hairstylist</small></h2>
       <div class="block"></div>
     </div>
     <div class="row">
       <div class="three columns">
-        <img class="stylist-photo" src="images/cozy.jpeg" alt="Cozzette's Photo" />
-        <p>
+        <img loading="lazy" class="stylist-photo" src="images/cozy.jpeg" alt="Cozzette's Photo" />
+        <p class="stylist-contact">
         <a href="tel:+1817-706-4925"><span class="typcn typcn-phone icon"></span> 817-706-4925</a><br>
-        <a href="https://www.facebook.com/cozzettefwtxhairstylist" aria-label="Link to Cozzette's Hairstylist Facebook page" target="_blank"
+        <a class="social-link" href="https://www.facebook.com/cozzettefwtxhairstylist" aria-label="Link to Cozzette's Hairstylist Facebook page" target="_blank"
            rel="noreferrer noopener"><span class="typcn typcn-social-facebook-circular icon"></span></a>
-          <a href="https://www.instagram.com/cozydoll81/" aria-label="Link to Cozzette's Hairstylist Instagram page" target="_blank" rel="noreferrer noopener"><span
+          <a class="social-link" href="https://www.instagram.com/cozydoll81/" aria-label="Link to Cozzette's Hairstylist Instagram page" target="_blank" rel="noreferrer noopener"><span
             class="typcn typcn-social-instagram-circular icon"></span></a>
           </p>
       </div>
@@ -245,20 +242,17 @@
     </div>
   </div>
 
-<br>
-<br>
-
-    <div class="container">
+    <div class="container stylist-card">
       <div class="row">
-        <h2>Leah | <small>Professional Hairstylist</small></h2>
+        <h2>Leah <small>Professional Hairstylist</small></h2>
           <div class="block"></div>
       </div>
       <div class="row">
       <div class="three columns">
-        <img class="stylist-photo" src="images/Leah.jpeg" alt="Leah's Photo" />
-        <p>
+        <img loading="lazy" class="stylist-photo" src="images/Leah.jpeg" alt="Leah's Photo" />
+        <p class="stylist-contact">
         <a href="tel:+18179256573"><span class="typcn typcn-phone icon"></span> 817-925-6573</a><br>
-        <a href="https://www.facebook.com/Leah-at-BB-63-Salon-1522701174610514/" aria-label="Link to Leah's Hairstylist Facebook page" target="_blank" rel="noreferrer noopener"><span class="typcn typcn-social-facebook-circular icon"></span></a>
+        <a class="social-link" href="https://www.facebook.com/Leah-at-BB-63-Salon-1522701174610514/" aria-label="Link to Leah's Hairstylist Facebook page" target="_blank" rel="noreferrer noopener"><span class="typcn typcn-social-facebook-circular icon"></span></a>
         </p>
       </div>
       <div class="nine columns">
@@ -276,20 +270,17 @@
       </div>
     </div>
 
-<br>
-<br>
-
-    <div class="container">
+    <div class="container stylist-card">
       <div class="row">
-        <h2>Cecilia | <small>Professional Hairstylist</small></h2>
+        <h2>Cecilia <small>Professional Hairstylist</small></h2>
           <div class="block"></div>
       </div>
       <div class="row">
       <div class="three columns">
-        <img class="stylist-photo" src="images/cecilia.png" alt="Cecilia's Photo" />
-        <p>
+        <img loading="lazy" class="stylist-photo" src="images/cecilia.jpg" alt="Cecilia's Photo" />
+        <p class="stylist-contact">
         <a href="tel:+18177390953"><span class="typcn typcn-phone icon"></span> 817-739-0953</a><br>
-        <a href="https://www.instagram.com/a.chemicalromance/" aria-label="Link to Cecilia's Instagram page" target="_blank" rel="noreferrer noopener"><span class="typcn typcn-social-instagram-circular icon"></span></a>
+        <a class="social-link" href="https://www.instagram.com/a.chemicalromance/" aria-label="Link to Cecilia's Instagram page" target="_blank" rel="noreferrer noopener"><span class="typcn typcn-social-instagram-circular icon"></span></a>
         </p>
       </div>
       <div class="nine columns">
@@ -319,8 +310,6 @@
       </div>
     </div>
   </section>
-<br />
-<br />
 
   <section id="esthetician">
     <div class="container">
@@ -332,20 +321,20 @@
       </div>
     </div>
 
-    <div class="container">
+    <div class="container stylist-card">
       <div class="row">
-        <h2>Starrla | <small>Cosmetic Dental Adornments</small></h2>
+        <h2>Starrla <small>Cosmetic Dental Adornments</small></h2>
         <div class="block"></div>
       </div>
       <div class="row">
         <div class="three columns">
-          <img class="stylist-photo" src="images/Starrla.jpg" alt="image of Starrla of Dark Delicacies Beauty" />
-          <h5>
-            <a href="https://www.facebook.com/DarkDelicaciesBeauty/" aria-label="Link to Cozzette's Hairstylist Facebook page" target="_blank"
+          <img loading="lazy" class="stylist-photo" src="images/Starrla.jpg" alt="image of Starrla of Dark Delicacies Beauty" />
+          <p class="stylist-contact">
+            <a class="social-link" href="https://www.facebook.com/DarkDelicaciesBeauty/" aria-label="Link to Dark Delicacies Beauty's Facebook page" target="_blank"
            rel="noreferrer noopener"><span class="typcn typcn-social-facebook-circular icon"></span></a>
-            <a href="https://www.instagram.com/dark_delicacies_beauty/" target="_blank" rel="noreferrer noopener"><span
+            <a class="social-link" href="https://www.instagram.com/dark_delicacies_beauty/" aria-label="Link to Dark Delicacies Beauty's Instagram page" target="_blank" rel="noreferrer noopener"><span
             class="typcn typcn-social-instagram-circular icon"></span></a>
-          </h5>
+          </p>
         </div>
         <div class="nine columns">
           <p>
@@ -353,16 +342,18 @@
           </p>
           <a class="button" target="_blank" href="https://book.squareup.com/appointments/4mqd2rarqddwll/location/LD5EWKECXFQ74/services"
              role="button">Book Now</a>
-          <div>
-          <img src="images/image0.jpeg" alt="Dark Delicacies Beauty" class="xs-img"/>
-          <img src="images/image1.jpeg" alt="Mosuth with vibrant red lipstick showing off a tooth gem" class="xs-img"/>
-          <img src="images/image2.jpeg" alt="Collage of different examples of tooth gems" class="xs-img"/>
-          <img src="images/image3.jpeg" alt="Close up shot of a tooth gem" class="xs-img"/>
+          <div class="gallery">
+          <img loading="lazy" src="images/image0.jpeg" alt="Dark Delicacies Beauty" class="xs-img"/>
+          <img loading="lazy" src="images/image1.jpeg" alt="Mosuth with vibrant red lipstick showing off a tooth gem" class="xs-img"/>
+          <img loading="lazy" src="images/image2.jpeg" alt="Collage of different examples of tooth gems" class="xs-img"/>
+          <img loading="lazy" src="images/image3.jpeg" alt="Close up shot of a tooth gem" class="xs-img"/>
           </div>
         </div>
       </div>
-    </div>    
+    </div>
   </section>
+
+  </div>
 
   <footer>
     <div class="container">
@@ -376,7 +367,7 @@
       <div class="three columns">
         <a href="https://www.facebook.com/BB63Salon/" aria-label="Link to BB 63 Salon's Facebook page" target="_blank" rel="noreferrer noopener"><span class="typcn typcn-social-facebook-circular socialIcons"></span></a>
         <a href="https://www.instagram.com/bb63salon/" aria-label="Link to BB 63 Salon's Instagram page" target="_blank" rel="noreferrer noopener"><span class="typcn typcn-social-instagram-circular socialIcons"></span></a>
-        <img src="images/welcome.jpg" alt="Everyone is Welcome Here Pride Flag" class="welcome"/>
+        <img loading="lazy" src="images/welcome.jpg" alt="Everyone is Welcome Here Pride Flag" class="welcome"/>
 
  
     </div>
@@ -388,7 +379,6 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.19.0/TweenMax.min.js"></script>
 <script src="js/nav-function.js"></script>
-<script src="js/modernizr-custom.js" defer></script>
 
 </body>
 </html>

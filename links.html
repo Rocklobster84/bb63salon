@@ -49,7 +49,6 @@
 
   <!-- CSS FILES -->
  
-   <link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/4.2.0/normalize.min.css" rel="stylesheet" type="text/css">
   <link href="https://cdnjs.cloudflare.com/ajax/libs/typicons/2.0.8/typicons.min.css" rel="stylesheet" type="text/css">
   <link href="css/styles.css" rel="stylesheet" type="text/css">
 
@@ -66,27 +65,24 @@
 
   <div id="page-wrapper">   
 
-    <div class="links_nav">
+    <div class="main_nav">
       <div class="container">
-        <div class="mobile-toggle"> <span></span> <span></span> <span></span> </div>
+        <button class="mobile-toggle" type="button" aria-label="Toggle menu" aria-expanded="false"> <span></span> <span></span> <span></span> </button>
           <nav>
             <ul>
-              <li><a class="smoothscroll" href="#header">Home</a></li>
-              <li><a class="smoothscroll" href="#about">About</a></li>
-              <li><a class="smoothscroll" href="#hair">Hair Services</a></li>
-              <!--
-              <li><a class="smoothscroll" href="#aesthetician">Aestheticians</a></li>
-              -->
+              <li><a href="index.html">Home</a></li>
+              <li><a href="index.html#about">About</a></li>
+              <li><a href="index.html#hair">Hair Services</a></li>
+              <li><a href="index.html#esthetician">Estheticians</a></li>
               <li><a href="booth-rental.html">Join Our Team</a></li>
             </ul>
           </nav>
+          <a class="nav-book" href="index.html#hair">Book Now</a>
         </div>
       </div>
 
-      </div>
-
       <div class="links-header">
-        <img src="images/bb63-logo-black.png" alt="BB 63 Salon Logo"/>
+        <img src="images/bb63-logo3.png" alt="BB 63 Salon Logo"/>
       </div>
 
       <section id="friends">
@@ -98,12 +94,12 @@
               <p>This page is dedicated to celebrating the friends and businesses we love to support at BB63 Salon. Each link connects you to local makers, creatives, and partners who inspire us and share our values. From small businesses to talented professionals, these are people we’re proud to call friends and are excited to recommend to our community. Take a look, explore their work, and discover some of the amazing connections that make BB63 Salon more than just a salon—it’s part of a vibrant network of friends.</p>
 
               <div class="links-list">
-                <a href="https://goldencitrinejewelers.com"><button class="links-button">Golden Citrine Jewelers</button></a>
-                <a href="https://collectedcomics.com"><button class="links-button">Collected Comics & Games</button></a>
-                <a href="https://www.facebook.com/americandreamssportscards"><button class="links-button">American Dreams Sportscards</button></a>
-                <a href="https://logicoverland.co"><button class="links-button">Logic Overland Coffee</button></a>
-                <a href="https://jackdawfolkart.com"><button class="links-button">Jackdaw Folk Art</button></a>
-                <a href="https://www.stephcodes.dev"><button class="links-button">Steph Codes</button></a>
+                <a class="links-button" href="https://goldencitrinejewelers.com">Golden Citrine Jewelers</a>
+                <a class="links-button" href="https://collectedcomics.com">Collected Comics &amp; Games</a>
+                <a class="links-button" href="https://www.facebook.com/americandreamssportscards">American Dreams Sportscards</a>
+                <a class="links-button" href="https://logicoverland.co">Logic Overland Coffee</a>
+                <a class="links-button" href="https://jackdawfolkart.com">Jackdaw Folk Art</a>
+                <a class="links-button" href="https://www.stephcodes.dev">Steph Codes</a>
               </div>
         </div>
       </section>
@@ -126,8 +122,7 @@
 <!-- JAVASCRIPT -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.19.0/TweenMax.min.js"></script>
-
-<script src="js/modernizr-custom.js" defer></script>
+<script src="js/nav-function.js"></script>
 
 </body>
 </html>

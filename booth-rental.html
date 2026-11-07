@@ -49,7 +49,6 @@
   <meta name="keywords" content="fort worth, texas, salon, bb 63, hair cuts, hair styles, hairstylist, booth rental, suite rental" />
 
   <!-- CSS FILES -->
-  <link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/4.2.0/normalize.min.css" rel="stylesheet" type="text/css">
   <link href="https://cdnjs.cloudflare.com/ajax/libs/typicons/2.0.8/typicons.min.css" rel="stylesheet" type="text/css">
   <link href="css/styles.css" rel="stylesheet" type="text/css">
 
@@ -63,26 +62,28 @@
 
   <div id="page-wrapper">   
 
-    <header id="header" class="alt">
+    <header id="header" class="alt hero-short">
       <div class="main_nav">
         <div class="container">
-          <div class="mobile-toggle"> <span></span> <span></span> <span></span> </div>
+          <button class="mobile-toggle" type="button" aria-label="Toggle menu" aria-expanded="false"> <span></span> <span></span> <span></span> </button>
             <nav>
               <ul>
                 <li><a href="index.html">Home</a></li>
                 <li><a href="index.html#about">About</a></li>
                 <li><a href="index.html#hair">Hair Services</a></li>
-                <li><a href="index.html#aesthetician">Aestheticians</a></li>
+                <li><a href="index.html#esthetician">Estheticians</a></li>
                 <li><a href="booth-rental.html">Join Our Team</a></li>
               </ul>
             </nav>
+            <a class="nav-book" href="index.html#hair">Book Now</a>
           </div>
         </div>
 
         <div class="title">
-          <div><img src="images/bb63-logo2.png" class="logo" alt="BB 63 Salon Logo"/></div>
+          <div><img src="images/bb63-logo3.png" class="logo" alt="BB 63 Salon Logo"/></div>
 
           <h2 class="heading">2901 Alta Mere Dr.<br />Fort Worth, Texas</h2>
+        </div>
     </header>
 
     
@@ -91,12 +92,11 @@
 <section id="booth-rental">
   <div class="container">
     <div class="row">
-      <br />
       <h1>Booth and Suite Rentals</h1>
       <div class="block"></div>
       <p>BB 63 Salon is a full-service salon located in Fort Worth, Texas. We offer booth and suite rentals for licensed cosmetologists and estheticians. Our salon is designed to provide a comfortable and professional environment for you and your clients.</p>
       <p>We are looking for talented and motivated individuals to join our team. If you are interested in renting a booth or suite at BB 63 Salon, please contact us for more information.</p>
-      <a class="button" target="_blank" href="tel:+1817-706-4925"
+      <a class="button" href="tel:+1817-706-4925"
            role="button">Call Now</a>
       <p>Cozy @ <a href="tel:+1817-706-4925"> 817-706-4925</a><br></p>
       </div>
@@ -118,31 +118,32 @@
 
       <div class="flex-container">
       <div class="image-container">
-        <img src="./images/salon-photo2.jpg" alt="Image hair washing stations" />
+        <img loading="lazy" src="./images/salon-photo2.jpg" alt="Image hair washing stations" />
       </div>
       <div class="image-container">
-        <img src="./images/salon-photo3.jpg" alt="Image of the front door of the salon" />
-      </div>
-    </div>
-    <div class="flex-container">
-      <div class="image-container">
-        <img src="./images/salon-photo4.jpg" alt="Image hair product display" />
-      </div>
-      <div class="image-container">
-        <img src="./images/salon-photo5.jpg" alt="Image of storage area and counter." />
+        <img loading="lazy" src="./images/salon-photo3.jpg" alt="Image of the front door of the salon" />
       </div>
     </div>
     <div class="flex-container">
       <div class="image-container">
-        <img src="./images/salon-photo6.jpg" alt="Image of suite labelling" />
+        <img loading="lazy" src="./images/salon-photo4.jpg" alt="Image hair product display" />
       </div>
       <div class="image-container">
-        <img src="./images/salon-photo7.jpg" alt="Image of the front of the salon" />
+        <img loading="lazy" src="./images/salon-photo5.jpg" alt="Image of storage area and counter." />
+      </div>
+    </div>
+    <div class="flex-container">
+      <div class="image-container">
+        <img loading="lazy" src="./images/salon-photo6.jpg" alt="Image of suite labelling" />
+      </div>
+      <div class="image-container">
+        <img loading="lazy" src="./images/salon-photo7.jpg" alt="Image of the front of the salon" />
       </div>
     </div>
   </div>
 </section>
 
+  </div>
 
   <footer>
     <div class="container">
@@ -156,7 +157,7 @@
       <div class="three columns">
         <a href="https://www.facebook.com/BB63Salon/" aria-label="Link to the BB 63 Salon Facebook page" target="_blank" rel="noreferrer noopener"><span class="typcn typcn-social-facebook-circular socialIcons"></span></a>
         <a href="https://www.instagram.com/bb63salon/" aria-label="Link to the BB 63 Salon Instagram page"target="_blank" rel="noreferrer noopener"><span class="typcn typcn-social-instagram-circular socialIcons"></span></a>
-        <img src="images/welcome.jpg" alt="Everyone is Welcome Here Pride Flag" class="welcome"/>
+        <img loading="lazy" src="images/welcome.jpg" alt="Everyone is Welcome Here Pride Flag" class="welcome"/>
 
  
     </div>
@@ -168,6 +169,5 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.19.0/TweenMax.min.js"></script>
 <script src="js/nav-function.js"></script>
-<script src="js/modernizr-custom.js" defer></script>
 </body>
 </html>
