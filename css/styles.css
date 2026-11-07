@@ -445,6 +445,30 @@ header::after {
 .social-link .icon {
 	font-size: 3.4rem;
 }
+.tiktok-icon {
+	position: relative;
+	top: .15rem;
+	width: 2.6rem;
+	height: 2.6rem;
+	padding: .45rem;
+	border: .2rem solid currentColor;
+	border-radius: 50%;
+	fill: currentColor;
+	vertical-align: middle;
+}
+.stylist-contact a.tiktok-link {
+	margin: -.9rem 0 -.9rem -.3rem;
+	padding: .9rem .7rem;
+}
+footer .tiktok-icon {
+	top: 0;
+	width: 3.4rem;
+	height: 3.4rem;
+	margin-left: .5rem;
+	padding: .55rem;
+	border-width: .25rem;
+	vertical-align: -.4rem;
+}
 @media (min-width: 1100px) {
 	.stylist-card {
 		margin-right: auto;
